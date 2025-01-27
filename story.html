@@ -455,7 +455,7 @@
 
 <button id="fullScreenButton">
   <i class="ri-fullscreen-line icon"></i>
-  <span>Pantalla completa</span>
+  <span class="button-text">Pantalla completa</span>
 </button>
 
   <script>
@@ -518,6 +518,18 @@
     margin-right: 10px;
     opacity: 1;
     transform: translateX(-5px);
+  }
+
+  @media screen and (max-width: 1000px) {
+    .button-text {
+      display: none;
+    }
+    
+    .icon {
+      font-size: 13px;
+      margin-right: 0;
+      opacity: 1;
+    }
   }
 </style>
 
