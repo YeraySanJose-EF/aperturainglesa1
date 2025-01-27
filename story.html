@@ -455,7 +455,6 @@
 
 <button id="fullScreenButton">
   <i class="ri-fullscreen-line icon"></i>
-  <span class="button-text">Pantalla completa</span>
 </button>
 
   <script>
@@ -503,45 +502,13 @@
   }
 
   .icon {
-    font-size: 0px;
     margin-right: 0px;
-    opacity: 0;
     transition: all 0.3s;
   }
 
   #fullScreenButton:hover {
-    transform: translateX(-5px);
-  }
-
-  #fullScreenButton:hover .icon {
-    font-size: 13px;
-    margin-right: 10px;
-    opacity: 1;
-    transform: translateX(-5px);
-  }
-
-  @media screen and (max-width: 1000px) {
-    .button-text {
-      display: none;
-    }
-    
-    .icon {
-      font-size: 13px;
-      margin-right: 0;
-      opacity: 1;
-    }
-
-    #fullScreenButton:hover {
-      transform: translateX(0);
-      animation: ease-in-out;
-      color: #23527C;
-      background-color: #0000000D;
-    }
-
-    #fullScreenButton:hover .icon {
-      transform: translateX(0);
-      margin-right: 0;
-    }
+    background-color: #F49C28;
+    color: white;
   }
 </style>
 
